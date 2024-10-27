@@ -1,0 +1,32 @@
+.mycard {
+    border: 2px solid green;
+    display: inline-block;
+    margin: 15px;
+    padding: 10px;
+    border-radius: 10px;
+    text-align: center;
+    width: 220px;
+    height: 280px;
+    box-sizing: border-box; /* Ensures padding and border are included in width/height */
+    overflow: hidden; /* Ensures no content spills out */
+    word-wrap: break-word; /* Breaks long words to fit inside */
+    transition: transform 0.2s ease-in-out;
+  }
+  
+  /* Optional hover effect for a subtle scale */
+  .mycard:hover {
+    transform: scale(1.05);
+  }
+  
+  /* Reducing font size to fit content better */
+  .mycard h1 {
+    font-size: 20px;
+    margin-bottom: 8px;
+    color: blue;
+  }
+  
+  .mycard h2 {
+    font-size: 16px;
+    margin-bottom: 6px;
+  }
+  
